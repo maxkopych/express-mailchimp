@@ -1,0 +1,28 @@
+{
+  "name": "express-mailchimp",
+  "version": "1.0.0",
+  "description": "Express Mailchimp API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxkopych/express-mailchimp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxkopych/express-mailchimp/issues"
+  },
+  "homepage": "https://github.com/maxkopych/express-mailchimp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
